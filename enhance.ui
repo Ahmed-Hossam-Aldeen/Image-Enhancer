@@ -453,10 +453,10 @@ QScrollBar::right-arrow:horizontal {
    <widget class="QPushButton" name="enhance">
     <property name="geometry">
      <rect>
-      <x>950</x>
-      <y>40</y>
-      <width>93</width>
-      <height>28</height>
+      <x>1000</x>
+      <y>50</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -481,7 +481,7 @@ QScrollBar::right-arrow:horizontal {
      <rect>
       <x>30</x>
       <y>10</y>
-      <width>391</width>
+      <width>311</width>
       <height>71</height>
      </rect>
     </property>
@@ -522,7 +522,7 @@ QScrollBar::right-arrow:horizontal {
     <widget class="QRadioButton" name="ESPCN_x4">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>240</x>
        <y>30</y>
        <width>95</width>
        <height>20</height>
@@ -567,9 +567,9 @@ QScrollBar::right-arrow:horizontal {
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>380</x>
       <y>10</y>
-      <width>351</width>
+      <width>291</width>
       <height>71</height>
      </rect>
     </property>
@@ -640,10 +640,101 @@ QScrollBar::right-arrow:horizontal {
      </attribute>
     </widget>
    </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>LapSRN algorithm</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <widget class="QRadioButton" name="LapSRN_x2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>95</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>x2</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup</string>
+     </attribute>
+    </widget>
+    <widget class="QRadioButton" name="LapSRN_x4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>95</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>x4</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup</string>
+     </attribute>
+    </widget>
+    <widget class="QRadioButton" name="LapSRN_x8">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>30</y>
+       <width>95</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>x8</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+     <attribute name="buttonGroup">
+      <string notr="true">buttonGroup</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>20</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show original</string>
+    </property>
+   </widget>
    <zorder>groupBox_2</zorder>
    <zorder>groupBox</zorder>
    <zorder>enhance</zorder>
    <zorder>label</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>checkBox</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
