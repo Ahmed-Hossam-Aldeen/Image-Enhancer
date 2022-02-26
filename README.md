@@ -2,13 +2,16 @@
  Increase the resolution of your images, using the latest algorithms, with a simple-to-use function in the OpenCV library.
  
  
- ![Capture](https://user-images.githubusercontent.com/61332730/155813896-50510e38-526f-4304-8882-f6c46a682bd4.PNG)
+![Capture](https://user-images.githubusercontent.com/61332730/155848372-c9a3afce-72d1-435e-a386-d4f96b6a2022.PNG)
+
 
 ## Models used
 1. **ESPCN**: This is a small model with fast and good inference. It can do real-time video upscaling (depending on image size).
 
-
 2. **FSRCNN**: This is also small model with fast and accurate inference. Can also do real-time video upscaling.
+
+3. **LapSRN**: This is a medium sized model that can upscale by a factor as high as 8.
+
 
 ### ESPCN Samples
 ![1_A8yToxEh-f0_1Up8u51aHQ](https://user-images.githubusercontent.com/61332730/155812372-4022571b-b2f3-4284-9794-38a0bb4ed805.png)
